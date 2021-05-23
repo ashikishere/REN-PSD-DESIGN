@@ -1,0 +1,383 @@
+/* FONT  AND COLOR*/
+
+:root {
+  --main-font: "Source Sans Pro", sans-serif;
+  --second-font: "Lato", sans-serif;
+
+  /* color use */
+  --primary: #506a85;
+  --green: #00bc9c;
+  --light-primary: #a3b1bf;
+  --white: #fff;
+  --light-second: #73879c;
+  --light-third: #3c5065;
+}
+
+body {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: var(--main-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--second-font);
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/* HEADER SECTION DESIGN START*/
+.header {
+  width: 100%;
+  background-color: var(--white);
+}
+
+.top-header {
+  width: 100%;
+  background-color: #f5f7fa;
+  padding: 10px 0px;
+}
+
+.top-social-icon-left {
+  font-size: 14px;
+  color: var(--primary);
+}
+
+.top-social-icon-left .fa {
+  font-size: 14px;
+}
+
+.top-social-icon {
+  width: 100%;
+  margin: 0;
+  text-align: right;
+}
+.top-social-icon li {
+  display: inline-block;
+}
+.top-social-icon li a {
+  font-size: 14px;
+  color: #506a85;
+  margin-left: 15px;
+}
+.top-social-icon li a:hover {
+  color: var(--green);
+}
+/* botstrap naver customize */
+#navber-customize {
+  padding: 20px 0px;
+  background-color: #ffff;
+}
+#navber-customize .navbar-nav {
+  margin-left: 70px;
+}
+#navber-customize .navbar-nav li {
+  margin-left: 10px;
+}
+#navber-customize .navbar-nav .nav-link {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+#navber-customize .navbar-nav .nav-link:hover,
+#navber-customize .navbar-nav .nav-link:focus {
+  color: #00bc9c !important;
+}
+.form-control:focus,
+#navber-customize form .btn {
+  box-shadow: none;
+}
+
+/* HEADER SECTION DESIGN END*/
+
+/* HERO SECTION DESIGN START*/
+.banner {
+  width: 100%;
+  background: url(../images/hero1.png) no-repeat left top;
+  background-size: cover;
+  padding: 200px 0px;
+  text-align: right;
+}
+.banner-heading {
+  font-size: 70px;
+  line-height: 85px;
+  font-family: var(--second-font);
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+.banner-pg {
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 400;
+  font-family: var(--main-font);
+  color: rgba(255, 255, 255, 0.937);
+  text-transform: none;
+  margin-bottom: 45px;
+}
+
+.btn-hero {
+  display: inline-block;
+  background-color: #00bc9c;
+  padding: 14px 60px;
+
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.5s;
+}
+.btn-hero:hover,
+.btn-hero:focus {
+  background-color: #fff;
+  color: #00bc9c;
+}
+/* HERO SECTION DESIGN END*/
+
+/* SECTION TITLE FOR ALL */
+
+.title-forall {
+  width: 100%;
+  text-align: center;
+  padding: 0px 0px 70px;
+}
+
+.title-forall h2 {
+  font-size: 44px;
+  line-height: 60px;
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.title-forall p {
+  font-size: 16px;
+  font-family: var(--main-font);
+  color: var(--light-primary);
+  margin-bottom: 0px;
+}
+
+/* SERVICES SECTION DESIGN START */
+.services {
+  width: 100%;
+  background: #fff;
+  padding: 80px 0px;
+}
+
+.services-items {
+  width: 100%;
+}
+
+.services-items h3 {
+  font-size: 25px;
+  color: var(--primary);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.services-items p {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--light-second);
+  margin-bottom: 0px;
+}
+
+/* SERVICES SECTION DESIGN END */
+
+/* portfolio section design start */
+.portfolio {
+  width: 100%;
+  background-color: #f1f4f6;
+  padding: 80px 0px 100px;
+}
+.inner-portfolio {
+  width: 100%;
+  margin: 0;
+}
+
+.card-body {
+  width: 100%;
+  text-align: center;
+}
+
+.card-body .card-text {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--second-font);
+  color: var(--primary);
+}
+.card-body small {
+  font-size: 14px;
+  color: var(--light-second);
+}
+
+.mini-work {
+  width: 100%;
+  margin-top: 60px;
+}
+.portfolio-mini {
+  width: 92%;
+}
+.portfolio-mini img {
+  width: 100%;
+}
+
+.work-3-img {
+  margin-left: 15px;
+}
+.work-2-img {
+  margin-left: 7px;
+}
+.work-last-img {
+  margin-left: 20px;
+}
+.get-in-touch {
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  padding: 80px 0px;
+}
+
+.get-in-touch h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--primary);
+}
+.get-in-touch p {
+  font-size: 16px;
+  color: var(--light-second);
+  margin: 20px 0px;
+}
+.get-in-touch .btn-get {
+  padding: 10px 25px;
+}
+.get-in-touch .btn-get:hover {
+  background: #00bc9c;
+  color: #3c5065;
+}
+/* portfolio section design end */
+
+/* footer section design start */
+.footer {
+  width: 100%;
+}
+.main-footer {
+  width: 100%;
+  background: #2e3f51;
+  padding: 80px 0px;
+}
+.main-footer h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.main-footer p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #a3b1bf;
+  margin: 15px 0px;
+}
+.about-more {
+  font-size: 14px;
+  color: #a3b1bf;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.about-more:hover,
+.about-more:focus {
+  color: #00bc9c;
+}
+.lattest-work {
+  width: 100%;
+}
+.lattest-work img {
+  width: 93%;
+  margin-top: 10px;
+}
+
+.main-footer ul {
+  width: 100%;
+  padding: 0px;
+}
+.main-footer ul li {
+  font-size: 16px;
+  color: #a3b1bf;
+}
+.main-footer ul li .fa {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.end-footer {
+  width: 100%;
+  background-color: #273544;
+  padding: 15px 0px;
+}
+
+.end-footer p {
+  font-size: 14px;
+  color: #707e8c;
+  margin-bottom: 0px;
+}
+.end-nav {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 0px;
+}
+.end-nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.end-nav li a {
+  font-size: 15px;
+  color: #707e8c;
+  text-transform: capitalize;
+  margin-left: 10px;
+  position: relative;
+}
+.end-nav li a:hover {
+  color: #00bc9c;
+}
+.end-nav li a::after {
+  content: "\f111";
+  font-family: FontAwesome;
+  right: -17px;
+  position: absolute;
+  top: 0;
+  font-size: 5px;
+}
+.end-nav .last-child::after {
+  content: "";
+}
+
+.footer-from {
+  width: 100%;
+  position: relative;
+}
+.footer-from .form-control {
+  padding: 10px 10px;
+  background-color: #4e5c6c;
+  border: none;
+}
+.from-btn {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  padding: 7px 10px;
+  font-size: 14px;
+}
+
+/* footer section design end */
+
+/* mobile menu */

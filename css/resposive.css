@@ -1,0 +1,129 @@
+/* XS SMALL DEVICES */
+
+@media (min-width: 320px) and (max-width: 767px) {
+  #navber-customize .navbar-nav,
+  #navber-customize .navbar-nav li,
+  #navber-customize .navbar-nav .nav-link {
+    margin-left: 0px;
+  }
+  .top-social-icon-left {
+    text-align: center;
+  }
+  .top-social-icon {
+    text-align: center;
+  }
+  /* baner section */
+  .banner {
+    padding: 50px 0px;
+    text-align: center;
+  }
+  .banner-heading {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .banner-pg {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+  .banner-pg br {
+    display: none;
+  }
+  .btn-hero {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  .title-forall {
+    padding-bottom: 50px;
+  }
+  .title-forall h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .title-forall br {
+    display: none;
+  }
+  .title-forall p {
+    font-size: 14px;
+  }
+
+  .services {
+    padding: 50px 0px;
+  }
+  .services-items {
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    padding: 10px 15px;
+  }
+  .services-items h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .services-items p {
+    font-size: 14px;
+  }
+  .services-items img {
+    margin-bottom: 20px;
+  }
+  .portfolio {
+    padding: 50px 0px;
+  }
+  .card-body .card-text {
+    font-size: 16px;
+  }
+  .card {
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .mini-work {
+    margin-top: 30px;
+  }
+  .portfolio-mini {
+    width: 100%;
+    padding: 0px 10px;
+    margin-top: 20px;
+  }
+  .portfolio-mini img {
+    margin: 0;
+  }
+  /* get in touch */
+  .get-in-touch {
+    padding: 50px 0;
+  }
+  .get-in-touch h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .get-in-touch p {
+    font-size: 14px;
+  }
+  .get-in-touch .btn-get {
+    padding: 10px 20px;
+  }
+  .main-footer {
+    padding: 50px 0px;
+  }
+  .main-footer h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .end-footer {
+    text-align: center;
+  }
+  .end-nav {
+    text-align: center;
+    padding-left: 0px;
+  }
+  .end-nav li {
+    margin-left: 5px;
+  }
+  .end-nav li a::after {
+    content: "";
+  }
+  .from-btn {
+    padding: 5px 10px;
+    top: 5px;
+  }
+  /* end */
+}
