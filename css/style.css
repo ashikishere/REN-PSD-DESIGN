@@ -46,6 +46,7 @@ li {
   width: 100%;
   background-color: #f5f7fa;
   padding: 10px 0px;
+  border-bottom: 1px solid #f2f3f3;
 }
 
 .top-social-icon-left {
@@ -85,7 +86,7 @@ li {
   margin-left: 10px;
 }
 #navber-customize .navbar-nav .nav-link {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
   margin-left: 10px;
@@ -383,4 +384,54 @@ li {
 
 /* footer section design end */
 
-/* mobile menu */
+.form-search {
+  background: transparent;
+  border-radius: 20px;
+  padding: 0px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-search:hover > .search-txt {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.form-search:hover > .buscar-btn {
+  background: white;
+  color: black;
+}
+
+.buscar-btn {
+  color: #e84118;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  /* background: #2f3640; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  color: #fff;
+  cursor: pointer;
+}
+
+.buscar-btn > i {
+  font-size: 20px;
+  line-height: 30px;
+  color: #2e3f51;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  color: #000;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+  font-weight: bold;
+}
